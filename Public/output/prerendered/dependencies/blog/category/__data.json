@@ -1,1 +1,0 @@
-{"type":"data","nodes":[{"type":"data","data":[{"path":1},"/blog/category"],"uses":{"url":1}},{"type":"data","data":[{"uniqueCategories":1},[2,5,7,10,13],{"title":3,"count":4},"sveltekit",5,{"title":6,"count":4},"markdown",{"title":8,"count":9},"svelte",4,{"title":11,"count":12},"web",1,{"title":14,"count":12},"css"],"uses":{}}]}

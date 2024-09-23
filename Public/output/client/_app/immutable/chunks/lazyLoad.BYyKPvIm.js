@@ -1,1 +1,0 @@
-let s={root:null,rootMargin:"0px",threshold:0};const l=(e,t)=>{const o=()=>{e.style.opacity="1"};return new IntersectionObserver(r=>{r[0].isIntersecting&&(console.log("an image has loaded"),e.src=t,e.complete?o():e.addEventListener("load",o))},s).observe(e),{destroy(){e.removeEventListener("load",o)}}};export{l};
