@@ -1,0 +1,12 @@
+{
+    "builds": [
+      {
+        "src": "src/main.ts", 
+        "use": "@vercel/static-build", 
+        "config": {
+          "distDir": "public"  // Should match the outDir in your vite config
+        }
+      }
+    ]
+  }
+  
