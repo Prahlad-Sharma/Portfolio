@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  app:
+    image: oven/bun
+    working_dir: /app
+    environment:
+      NODE_ENV: production
+    command: ['bun', 'src/index.ts']
+    network_mode: host
+    volumes:
+      - .:/app
