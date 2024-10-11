@@ -36,7 +36,7 @@
 	<ul class="hidden md:flex nav">
 		<li><a href="/">Home</a></li>
 
-		<li><a href="/#skill">Tech</a></li>
+		<li><a href="/#skill">Skill</a></li>
 		<li><a href="/#proj">Projects</a></li>
 		<li><a href="/#exp">Experience</a></li>
 		
