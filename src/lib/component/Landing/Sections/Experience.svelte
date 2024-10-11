@@ -37,21 +37,21 @@
 			img: '/exp/vit.jpg'
 		},
 		{
-			school: 'Delhi Public School, Whitefield',
-			class: '10+2 (CBSE)',
-			percentage: '88.4%',
+			school: 'Hallmark International School, Jaipur',
+			class: '10+2 (RBSE)',
+			percentage: '',
 			year: '2020',
-			pcmc: 'PCMC',
-			img: '/exp/dps.png'
+			pcmc: 'Commerce',
+			img: '/exp/his.jpeg'
 		},
 
 		{
-			school: 'Chrysalis High, Whitefield',
-			class: 'Class 10 , CBSE',
+			school: 'Holy Faith Academy, Jaipur',
+			class: 'Class 10 (RBSE)',
 			pcmc: 'High School',
-			percentage: '82.8%',
+			percentage: '',
 			year: '2018',
-			img: '/exp/ch.png'
+			img: '/exp/hfa.jpeg'
 		}
 	];
 </script>

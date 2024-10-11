@@ -47,6 +47,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@vercel/speed-insights": "^1.0.12"
+		"@vercel/speed-insights": "^1.0.12",
+		"@zerodevx/svelte-toast": "^0.9.6"
 	}
 }

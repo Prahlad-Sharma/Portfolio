@@ -38,7 +38,7 @@
 					Developer, <br /> Mobile<br /> Developer
 				</h1>
 				<p transition:fly={{ x: -200, duration: 1000 }} class="mt-20 hidden2">
-					Fullstack dev working mainly with Django, Node and NextJS
+					Fullstack dev working mainly with ReactJs and NodeJS
 				</p>
 				<div class="flex 2xl:hidden mt-4 gap-4">
 					<a href="https://github.com/Prahlad-Sharma" target="_blank">
