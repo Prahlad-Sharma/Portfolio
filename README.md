@@ -10,4 +10,4 @@ My Personal Portfoio Made Using **Svelte , SvelteKit , GO and TypeScipt** using 
 
 - **Modern Design** inspired by Neubrutalism and other similar design philosophies
 
-### Live 🔗 : https://akshayk.dev/
+### Live 🔗 : https://iamps.vercel.app/

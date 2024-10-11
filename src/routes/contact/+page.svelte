@@ -163,7 +163,7 @@
 									type="text"
 									id="firstName"
 									bind:value={firstName}
-									class="{firstNameError ? 'error-input' : ''} py-3 px-4 block placeholder:text-foreground w-full border-[0.15rem] bg-muted border-black rounded-md text-foreground text-md focus:border-black focus:ring-black dark:border-gray-700"
+									class="{firstNameError ? 'error-input' : ''} py-3 px-4 block placeholder:text-foreground w-full border-[0.15rem] bg-muted border-black rounded-md dark:text-white text-foreground text-md focus:border-black focus:ring-black dark:border-gray-700"
 									placeholder="First Name"
 								/>
 								{#if firstNameError}
@@ -177,7 +177,7 @@
 									type="text"
 									id="lastName"
 									bind:value={lastName}
-									class="{lastNameError ? 'error-input' : ''} py-3 px-4 block w-full placeholder:text-foreground border-[0.15rem] bg-muted border-black rounded-md text-md focus:border-black focus:ring-black dark:border-gray-700"
+									class="{lastNameError ? 'error-input' : ''} py-3 px-4 block w-full placeholder:text-foreground border-[0.15rem] bg-muted border-black rounded-md text-md dark:text-white focus:border-black focus:ring-black dark:border-gray-700"
 									placeholder="Last Name"
 								/>
 								{#if lastNameError}
@@ -194,7 +194,7 @@
 								id="email"
 								bind:value={email}
 								autocomplete="email"
-								class="{emailError ? 'error-input' : ''} py-3 px-4 block w-full border-[0.15rem] placeholder:text-foreground bg-muted border-black rounded-md text-md focus:border-black focus:ring-black dark:border-gray-700"
+								class="{emailError ? 'error-input' : ''} py-3 px-4 block w-full border-[0.15rem] placeholder:text-foreground bg-muted border-black rounded-md text-md dark:text-white focus:border-black focus:ring-black dark:border-gray-700"
 								placeholder="Email"
 							/>
 							{#if emailError}
@@ -208,7 +208,7 @@
 								type="text"
 								id="phoneNumber"
 								bind:value={phoneNumber}
-								class="{phoneNumberError ? 'error-input' : ''} py-3 px-4 block w-full border-[0.15rem] bg-muted placeholder:text-foreground border-black rounded-md text-md focus:border-black focus:ring-black dark:border-gray-700"
+								class="{phoneNumberError ? 'error-input' : ''} py-3 px-4 block w-full border-[0.15rem] bg-muted placeholder:text-foreground border-black rounded-md text-md dark:text-white focus:border-black focus:ring-black dark:border-gray-700"
 								placeholder="Phone Number"
 							/>
 							{#if phoneNumberError}
@@ -222,7 +222,7 @@
 								id="details"
 								bind:value={details}
 								rows="4"
-								class="{detailsError ? 'error-input' : ''} py-3 px-4 block w-full bg-muted placeholder:text-foreground border-[0.15rem] border-black rounded-md text-md focus:border-black focus:ring-black dark:border-gray-700"
+								class="{detailsError ? 'error-input' : ''} py-3 px-4 block w-full bg-muted placeholder:text-foreground border-[0.15rem] border-black rounded-md text-md  dark:text-white focus:border-black focus:ring-black dark:border-gray-700"
 								placeholder="Details"
 							/>
 							{#if detailsError}
